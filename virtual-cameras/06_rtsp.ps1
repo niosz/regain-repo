@@ -1,0 +1,1 @@
+mediamtx.exe 06_template.yml
