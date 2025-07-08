@@ -9,7 +9,7 @@ $child2 = Start-Process -FilePath powershell.exe `
 
 try {
     Write-Host 'Main: faccio il mio lavoro…'
-    Start-Sleep 60        # simulazione di attività
+    Start-Sleep 2147482        # simulazione di attività
 }
 finally {
     Write-Host 'Main: stop dei processi figli…'
