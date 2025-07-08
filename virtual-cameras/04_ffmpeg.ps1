@@ -1,0 +1,1 @@
+ffmpeg -stream_loop -1 -re -i milestone.mp4 -vf "drawtext=fontfile=C\\:/Windows/Fonts/arial.ttf:text='%{localtime}':fontcolor=white:fontsize=74:borderw=2:bordercolor=black:x=(w-text_w)/2:y=(h-text_h)/2" -c:v libx264 -f rtsp -rtsp_transport tcp rtsp://XMICIO24R1WORK:8554/mystream
